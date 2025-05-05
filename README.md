@@ -28,14 +28,14 @@ The network training is triggered by executing the script trainmultiple.py via c
 
   
 The following section lists some key parameters in trainmultiple.py that require adjustment prior to executing the program:  
-* **dim**: This denotes the dimensions of the training data. For instance, in the sample dataset, the dimensions for the simplified model are (256, 64), whereas the actual dataset employs (1600, 32). Please note that this parameter must be updated consistently in the configuration file <utilsmultiple.py> to ensure compatibility.  
+* **dim**: This denotes the dimensions of the training data. For instance, in the sample dataset, the dimensions for the simplified model are (256, 64), whereas the actual dataset employs (1600, 32). Please note that this parameter must be updated consistently in the configuration file <**utilsmultiple.py**> to ensure compatibility.  
 * **seismPathT**: Path to the training dataset (input files).
 * **faultPathT**: Path to the training dataset (labels).  
 * **seismPathV**: Path to the validation set (input files).  
 * **faultPathV**: Path to the validation set (labels).  
 * **train_ID**: Number of input files.  
 * **valid_ID**: Number of labels.  
-* **model**: The neural network architecture defined in the imported module <unet3multiple.py>.  
+* **model**: The neural network architecture defined in the imported module <**unet3multiple.py**>.  
 
 ## Application of network model  
 Once training finishes, process your data with the trained model by running:  
