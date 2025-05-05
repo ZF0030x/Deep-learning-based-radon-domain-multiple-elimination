@@ -9,14 +9,14 @@ Code for the problem of Deep learning-based radon domain multiple elimination.
 
 The sample training dataset has already been prepared at the following file path:   
 ```
-  data_simple/train/  
-  data_complex/train/
+  dataset_simple/train/  
+  dataset_field/train/
 ```
   
 The validation sets are stored separately at:  
 ```
-  data_simple/validation/  
-  data_complex/validation/
+  dataset_simple/validation/  
+  dataset_field/validation/
 ```
   
 The "**low**" folder under the specified paths contains the input conjugate solution data, while the "**high**" folder stores the high-resolution Radon-domain data serving as the label data.    
