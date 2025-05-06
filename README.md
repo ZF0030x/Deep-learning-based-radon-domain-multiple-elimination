@@ -21,7 +21,7 @@ The validation sets are stored separately at:
   
 The "**low**" folder under the specified paths contains the input conjugate solution data, while the "**high**" folder stores the high-resolution Radon-domain data serving as the label data.    
 
-The network training is triggered by executing the script trainmultiple.py via command line:  
+The network training is triggered by executing the script <**trainmultiple.py**> via command line:  
 ```  
   python trainmultiple.py
 ```
